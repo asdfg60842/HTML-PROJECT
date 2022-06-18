@@ -1,6 +1,0 @@
-Set Of Different CSS Tabs : https://codepen.io/alvarotrigo/pen/KKXjJBm
-CSS Tab Filter Card : https://codepen.io/alvarotrigo/pen/bGoPzQw]
-Animated Zooming Tabs : https://codepen.io/alvarotrigo/pen/wvrLNEW
-Card Tabs: https://codepen.io/alvarotrigo/pen/ZEXdwRa
-CSS Tabs With Indicator : https://codepen.io/alvarotrigo/pen/abLgXYj
-Tab : https://codepen.io/juliepark/pen/pLMxoP
