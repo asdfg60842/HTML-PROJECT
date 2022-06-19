@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+  min-height: 100vh;
+	height:auto;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	font-family: 'Roboto', sans-serif;
+	background-image: linear-gradient(0deg, #eef2f5 0%, #eef2f5 70%, rgba(60, 180, 250, .15) 100%);
+	color: #636d84;
+}
+
+h2{
+  margin:0px;
+  text-transform: uppercase;
+}
+
+h6{
+  margin:0px;
+  color:#777;
+}
+
+.wrapper{
+  text-align:center;
+  margin:50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+	align-items:center;
+}
+
+.tabs{
+  position: fixed;
+  margin-top:50px;
+  font-size:15px;
+  padding:0px;
+  list-style:none;
+  background:#fff;
+  box-shadow:0px 5px 20px rgba(0,0,0,0.1);
+  display:inline-block;
+  border-radius:50px;
+  bottom: 50px; 
+  transition:bottom .2s;
+}
+
+.tabs.hide {
+  bottom: -50px; 
+  transition:bottom .2s;
+}
+
+.tabs a{
+  text-decoration:none;
+  color: #777;
+  text-transform:uppercase;
+  padding:10px 20px;
+  display:inline-block;
+  position:relative;
+  z-index:1;
+  transition-duration:0.6s;
+}
+
+.tabs a.active{
+  color:#fff;
+}
+
+.tabs a i{
+  margin-right:5px;
+}
+
+.tabs .selector{
+  height:100%;
+  display:inline-block;
+  position:absolute;
+  left:0px;
+  top:0px;
+  z-index:1;
+  border-radius:50px;
+  transition-duration:0.6s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  
+  background: #05abe0;
+  background: -moz-linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
+  background: -webkit-linear-gradient(45deg, #05abe0 0%,#8200f4 100%);
+  background: linear-gradient(45deg, #05abe0 0%,#8200f4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#8200f4',GradientType=1 );
+}
+
+.container {
+  width: 250px;
+  height: 350px;
+  box-shadow: 0px 2px 4px black;
+  background: white;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.content {
+  display: flex;
+  width: 750px;
+  height: 100%;
+}
+.item {
+  width: 250px;
+  color: black;
+  background: white;
+  display: flex;
+  row-gap: 25px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link {
+  transition: all 0.3s;
+}
+
+.line {
+  width: 70%;
+  height: 8px;
+  margin-top:5px;
+  background: gainsboro;
+  border-radius: 8px;
+}
+.line2 {
+  width: 50%;
+}
+.item i {
+  font-weight: bolder;
+  font-size: 3rem;
+  color: rgb(12, 12, 12);
+}
+.item1 i {
+  color: rgb(243, 118, 160);
+}
+.item2 i {
+  color: rgb(146, 146, 228);
+}
+.item3 i {
+  color: rgb(245, 233, 67);
+}
