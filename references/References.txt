@@ -1,0 +1,13 @@
+Set Of Different CSS Tabs : https://codepen.io/alvarotrigo/pen/KKXjJBm
+CSS Tab Filter Card : https://codepen.io/alvarotrigo/pen/bGoPzQw]
+Animated Zooming Tabs : https://codepen.io/alvarotrigo/pen/wvrLNEW
+Card Tabs: https://codepen.io/alvarotrigo/pen/ZEXdwRa
+CSS Tabs With Indicator : https://codepen.io/alvarotrigo/pen/abLgXYj
+Tab1 : https://alvarotrigo.com/blog/html-css-tabs/
+Tab2 : https://uicookies.com/css-tabs/
+
++) how to make bottom navigation bar in html/css
+
+https://coderpoint.net/
+
+vertical dot navigation bar : https://www.youtube.com/watch?v=1EjlL4dr4ug
