@@ -1,0 +1,43 @@
+.pageTitle,
+.bottomNav {
+    position: fixed;
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    height: 52px; 
+    line-height: 52px; 
+    color: #fff; 
+    text-align: center;
+}
+.pageTitle {
+    top: 0; 
+    background:#111;
+}
+.bottomNav {
+    bottom: -52px;
+    background:#111; 
+    transition:bottom .2s;
+}
+.bottomNav.show {
+    bottom: 0; 
+    background:#111;
+}
+article {
+    padding: 52px 3% 0;
+}
+article .block {
+    padding: 20px; 
+    min-height: 500px;
+}
+article .block p {
+    line-height: 22px; 
+    color: #fff; 
+    font-size: 16px; 
+    font-weight: 600;
+}
+article .block:nth-child(2n+1) {
+    background: #999;
+}
+article .block:nth-child(2n) {
+    background: #222;
+}
