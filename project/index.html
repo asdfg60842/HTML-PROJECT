@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/toast.css">
+    <script src="./script/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="./script/checkAutoLogin.js">
+        $(document).ready(checkAutoLogin());
+    </script>
+</head>
+<body>
+    <div id="wrap">
+      <div class="dd-wrapper">
+        <div class="sidebar">
+          <div class="sidebar-content">
+            <div class="sidebar-list">
+              <ul class="sidebar-list-menu">
+                <span class="sidebar-list-menu-active-bar"></span>
+                <li><a href="javascript:void(0);" id="0" onclick="navMove(0); return false;" class="activeL link link0" dd-active-tab="1" dd-sidebar-tab="">Slide 1</a></li>
+                <li><a href="javascript:void(0);" id="1" onclick="navMove(1); return false;" class="link link1" dd-active-tab="2" dd-sidebar-tab="">Slide 2</a></li>
+                <li><a href="javascript:void(0);" id="2" onclick="navMove(2); return false;" class="link link2" dd-active-tab="3" dd-sidebar-tab="">Slide 3</a></li>
+                <li><a href="javascript:void(0);" id="3" onclick="navMove(3); return false;" class="link link3" dd-active-tab="4" dd-sidebar-tab="">Slide 4</a></li>
+                <li><a href="javascript:void(0);" id="4" onclick="navMove(4); return false;" class="link link4" dd-active-tab="5" dd-sidebar-tab="">Slide 5</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="toast">
+        <div class="toast-content">
+            <i class="fas fa-solid fa-check check"></i>
+            <div class="message">
+                <span class="text text-1">Success</span>
+                <span class="text text-2">Your changes has been saved</span>
+            </div>
+        </div>
+        <i class="fa-solid fa-xmark close"></i>
+        <div class="progress"></div>
+      </div>
+      <section>
+        <div class="wrapper">
+          <h2>Elastic Tabs</h2>
+          <h6>Click on tabs to see them in action</h6>
+  
+          <div class="container">
+            <div class="content">
+              <div class="item item1" id="tab1">
+                <div class="mainCard">
+					<div class="cardContainer">
+						<div id="container">
+							<h2>Material Overlay Animation</h2>
+							<div class="button-wrapper">
+								<div class="layer"></div>
+								<button class="main-button fa fa-info">
+									<div class="ripple"></div>
+								</button>
+							</div>
+							<div class="layered-content">
+								<button class="close-button fa fa-times"></button>
+								<div class="content">
+									
+								</div>
+							</div>
+						</div>
+						<div class="miniCard card1"></div>
+						<div class="miniCard card2"></div>
+						<div class="miniCard card3"></div>
+						<div class="miniCard card4"></div>
+						<div class="miniCard card5"></div>
+						<div class="miniCard card6"></div>
+						<div class="miniCard card7"></div>
+						<div class="miniCard card8"></div>
+						
+					</div>
+				</div>
+              </div>
+              <div class="item item2" id="tab2">
+                 <h1>TEST2</h1>
+                 <div class="line line1"></div>
+                 <div class="line line2"></div>
+                 <div class="line line3"></div>
+              </div>
+              <div class="item item3" id="tab3">
+                <h1>TEST3</h1>
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+              <div class="item item3" id="tab4">
+                <h1>TEST4</h1>
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>  
+            <div class="content_vertical">
+              <div class="item_vertical item1" id="tab_v1">
+                <div class="container">
+                  <div class="content">
+                  <div class="item item1" id="tab1_v1">
+                    <h1>TEST1 VERTICAL</h1>
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                  </div>
+                  <div class="item item2" id="tab2_v1">
+                    <h1>TEST2 VERTICAL</h1>
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                  </div>
+                  <div class="item item3" id="tab3_v1">
+                    <h1>TEST3 VERTICAL</h1>
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                  </div>
+                    <div class="item item3" id="tab4_v1">
+                    <h1>TEST4 VERTICAL</h1>
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="item_vertical item2" id="tab_v2">
+                <div class="container">
+                  <div class="content">
+                  <div class="item item1" id="tab1_v2">
+                    <h1>TEST1 VERTICAL</h1>
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                  </div>
+                  <div class="item item2" id="tab2_v2">
+                    <h1>TEST2 VERTICAL</h1>
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                  </div>
+                  <div class="item item3" id="tab3_v2">
+                    <h1>TEST3 VERTICAL</h1>
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                  </div>
+                    <div class="item item3" id="tab4_v2">
+                    <h1>TEST4 VERTICAL</h1>
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="item_vertical item3" id="tab_v3">
+                <div class="container">
+                  <div class="content content3">
+                  <div class="item item1" id="tab1_v3">
+                    <h1>TEST1 VERTICAL</h1>
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                  </div>
+                  <div class="item item2" id="tab2_v3">
+                    <h1>TEST2 VERTICAL</h1>
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                  </div>
+                  <div class="item item3" id="tab3_v3">
+                    <h1>TEST3 VERTICAL</h1>
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                  </div>
+                    <div class="item item3" id="tab4_v3">
+                    <h1>TEST4 VERTICAL</h1>
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="item_vertical item4" id="tab_v4">
+                <div class="container">
+                  <div class="content content4">
+                  <div class="item item1" id="tab1_v4">
+                    <h1>TEST1 VERTICAL</h1>
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                  </div>
+                  <div class="item item2" id="tab2_v4">
+                    <h1>TEST2 VERTICAL</h1>
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                  </div>
+                  <div class="item item3" id="tab3_v4">
+                    <h1>TEST3 VERTICAL</h1>
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                  </div>
+                    <div class="item item3" id="tab4_v4">
+                    <h1>TEST4 VERTICAL</h1>
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+		    </div>
+      </div>
+      <nav class="tabs tab1">
+        <div class="selector"></div>
+        <a href="javascript:void(0);" id="1" onclick="tabMove(1); return false;" class="active link link1">HOME</a>
+        <a href="javascript:void(0);" id="2" onclick="tabMove(2); return false;" class="link link2">TAB B</a>
+        <a href="javascript:void(0);" id="3" onclick="tabMove(3); return false;" class="link link3">TAB C</a>
+        <a href="javascript:void(0);" id="4" onclick="tabMove(4); return false;" class="link link4">TAB D</a>
+      </nav>
+      <nav class="tabs tab2 non">
+        <div class="selector"></div>
+        <a href="javascript:void(0);" id="1" onclick="tabMove(1); return false;" class="active link link1">TAB 가</a>
+        <a href="javascript:void(0);" id="2" onclick="tabMove(2); return false;" class="link link2">TAB 나</a>
+        <a href="javascript:void(0);" id="3" onclick="tabMove(3); return false;" class="link link3">TAB 다</a>
+        <a href="javascript:void(0);" id="4" onclick="tabMove(4); return false;" class="link link4">TAB 라</a>
+      </nav>
+      <nav class="tabs tab3 non">
+        <div class="selector"></div>
+        <a href="javascript:void(0);" id="1" onclick="tabMove(1); return false;" class="active link link1">TAB E</a>
+        <a href="javascript:void(0);" id="2" onclick="tabMove(2); return false;" class="link link2">TAB F</a>
+        <a href="javascript:void(0);" id="3" onclick="tabMove(3); return false;" class="link link3">TAB G</a>
+        <a href="javascript:void(0);" id="4" onclick="tabMove(4); return false;" class="link link4">TAB H</a>
+      </nav>
+      <nav class="tabs tab4 non">
+        <div class="selector"></div>
+        <a href="javascript:void(0);" id="1" onclick="tabMove(1); return false;" class="active link link1">TAB 마</a>
+        <a href="javascript:void(0);" id="2" onclick="tabMove(2); return false;" class="link link2">TAB 바</a>
+        <a href="javascript:void(0);" id="3" onclick="tabMove(3); return false;" class="link link3">TAB 사</a>
+        <a href="javascript:void(0);" id="4" onclick="tabMove(4); return false;" class="link link4">TAB 아</a>
+        <a href="javascript:void(0);" id="5" onclick="tabMove(5); return false;" class="link link5">TAB 아</a>
+      </nav>
+      <nav class="tabs tab5 non">
+        <div class="selector"></div>
+        <a href="javascript:void(0);" id="1" onclick="tabMove(1); return false;" class="active link link1">TAB I</a>
+        <a href="javascript:void(0);" id="2" onclick="tabMove(2); return false;" class="link link2">TAB J</a>
+        <a href="javascript:void(0);" id="3" onclick="tabMove(3); return false;" class="link link3">TAB K</a>
+        <a href="javascript:void(0);" id="4" onclick="tabMove(4); return false;" class="link link4">TAB L</a>
+        <a href="javascript:void(0);" id="5" onclick="tabMove(5); return false;" class="link link5">TAB M</a>
+      </nav>
+      </section>
+      <footer id="footer">
+        <p>DESIGNED BY<a href="https://github.com/asdfg60842">CAZ</a></p>
+      </footer>
+    </div>
+    
+</body>
+<script type="text/javascript" src="./script/tabHideEvent.js"></script>
+<script type="text/javascript" src="./script/toastEvent.js"></script>
+<script type="text/javascript" src="./script/tabSelectEvent.js"></script>
+<script type="text/javascript" src="./script/index.js"></script>
+</html>
