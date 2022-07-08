@@ -1,0 +1,145 @@
+WorkTable = {
+    "month" : [
+        {
+            "monthValue" : "7",
+            "date" : [
+                {
+                    "dateValue" : "1",
+                    "workType" : [
+                        {
+                            "worker" : "USER 1",
+                            "workType" : "1"
+                        },
+                        {
+                            "worker" : "USER 2",
+                            "workType" : "2"
+                        },
+                        {
+                            "worker" : "USER 3",
+                            "workType" : "3"
+                        }
+                    ]
+                },
+                {
+                    "dateValue" : "2",
+                    "workType" : [
+                        {
+                            "worker" : "USER 1",
+                            "workType" : "4"
+                        },
+                        {
+                            "worker" : "USER 2",
+                            "workType" : "2"
+                        },
+                        {
+                            "worker" : "USER 3",
+                            "workType" : "3"
+                        }
+                    ]
+                },
+                {
+                    "dateValue" : "3",
+                    "workType" : [
+                        {
+                            "worker" : "USER 1",
+                            "workType" : "4"
+                        },
+                        {
+                            "worker" : "USER 2",
+                            "workType" : "2"
+                        },
+                        {
+                            "worker" : "USER 3",
+                            "workType" : "3"
+                        }
+                    ]
+                },
+                {
+                    "dateValue" : "4",
+                    "workType" : [
+                        {
+                            "worker" : "USER 1",
+                            "workType" : "4"
+                        },
+                        {
+                            "worker" : "USER 2",
+                            "workType" : "2"
+                        },
+                        {
+                            "worker" : "USER 3",
+                            "workType" : "3"
+                        }
+                    ]
+                },
+                {
+                    "dateValue" : "5",
+                    "workType" : [
+                        {
+                            "worker" : "USER 1",
+                            "workType" : "4"
+                        },
+                        {
+                            "worker" : "USER 2",
+                            "workType" : "2"
+                        },
+                        {
+                            "worker" : "USER 3",
+                            "workType" : "3"
+                        }
+                    ]
+                },
+                {
+                    "dateValue" : "6",
+                    "workType" : [
+                        {
+                            "worker" : "USER 1",
+                            "workType" : "4"
+                        },
+                        {
+                            "worker" : "USER 2",
+                            "workType" : "2"
+                        },
+                        {
+                            "worker" : "USER 3",
+                            "workType" : "3"
+                        }
+                    ]
+                },
+                {
+                    "dateValue" : "7",
+                    "workType" : [
+                        {
+                            "worker" : "USER 1",
+                            "workType" : "4"
+                        },
+                        {
+                            "worker" : "USER 2",
+                            "workType" : "2"
+                        },
+                        {
+                            "worker" : "USER 3",
+                            "workType" : "3"
+                        }
+                    ]
+                },
+                {
+                    "dateValue" : "8",
+                    "workType" : [
+                        {
+                            "worker" : "USER 1",
+                            "workType" : "1"
+                        },
+                        {
+                            "worker" : "USER 2",
+                            "workType" : "4"
+                        },
+                        {
+                            "worker" : "USER 3",
+                            "workType" : "3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
