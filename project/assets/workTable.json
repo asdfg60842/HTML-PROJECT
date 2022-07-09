@@ -1,0 +1,49 @@
+WorkTable = {
+    "month" : [
+        {
+            "monthValue" : "7",
+            "date" : [
+                {
+                    "dateValue" : "1",
+                    "workType" : [
+                        {
+                            "workerName" : "USER 1",
+                            "workerTag" : "u1",
+                            "workType" : "1"
+                        },
+                        {
+                            "worker" : "USER 2",
+                            "workerTag" : "u2",
+                            "workType" : "2"
+                        },
+                        {
+                            "worker" : "USER 3",
+                            "workerTag" : "u3",
+                            "workType" : "3"
+                        }
+                    ]
+                },
+                {
+                    "dateValue" : "9",
+                    "workType" : [
+                        {
+                            "worker" : "USER 1",
+                            "workerTag" : "u1",
+                            "workType" : "1"
+                        },
+                        {
+                            "worker" : "USER 2",
+                            "workerTag" : "u2",
+                            "workType" : "2"
+                        },
+                        {
+                            "worker" : "USER 3",
+                            "workerTag" : "u3",
+                            "workType" : "3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
